@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B8F56112577AAEF0055CC9B /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F56102577AAEF0055CC9B /* CustomButtonView.swift */; };
+		2B8F56152577DF390055CC9B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F56142577DF390055CC9B /* CardView.swift */; };
+		2B8F56182577DF660055CC9B /* CardVisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F56172577DF660055CC9B /* CardVisionView.swift */; };
 		2BB542DB2577904400463645 /* Apple_Lab_TvApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB542DA2577904400463645 /* Apple_Lab_TvApp.swift */; };
 		2BB542DD2577904400463645 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB542DC2577904400463645 /* ContentView.swift */; };
 		2BB542DF2577904500463645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB542DE2577904500463645 /* Assets.xcassets */; };
 		2BB542E22577904500463645 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB542E12577904500463645 /* Preview Assets.xcassets */; };
+		2BB542EF2577953E00463645 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB542EE2577953E00463645 /* HomeView.swift */; };
+		2BB542F22577969B00463645 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB542F12577969B00463645 /* LibraryView.swift */; };
+		2BB542F5257796C200463645 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB542F4257796C200463645 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B8F56102577AAEF0055CC9B /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		2B8F56142577DF390055CC9B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2B8F56172577DF660055CC9B /* CardVisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardVisionView.swift; sourceTree = "<group>"; };
 		2BB542D72577904400463645 /* Apple Lab Tv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Lab Tv.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB542DA2577904400463645 /* Apple_Lab_TvApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_Lab_TvApp.swift; sourceTree = "<group>"; };
 		2BB542DC2577904400463645 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2BB542DE2577904500463645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BB542E12577904500463645 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2BB542E32577904500463645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB542EE2577953E00463645 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2BB542F12577969B00463645 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		2BB542F4257796C200463645 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,9 @@
 		2BB542D92577904400463645 /* Apple Lab Tv */ = {
 			isa = PBXGroup;
 			children = (
-				2BB542DA2577904400463645 /* Apple_Lab_TvApp.swift */,
-				2BB542DC2577904400463645 /* ContentView.swift */,
+				2BB542EC257794C300463645 /* Helpers */,
+				2BB542EB2577947000463645 /* Models */,
+				2BB542EA2577944700463645 /* Views */,
 				2BB542DE2577904500463645 /* Assets.xcassets */,
 				2BB542E32577904500463645 /* Info.plist */,
 				2BB542E02577904500463645 /* Preview Content */,
@@ -67,6 +80,35 @@
 				2BB542E12577904500463645 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BB542EA2577944700463645 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2BB542DA2577904400463645 /* Apple_Lab_TvApp.swift */,
+				2BB542DC2577904400463645 /* ContentView.swift */,
+				2BB542EE2577953E00463645 /* HomeView.swift */,
+				2B8F56172577DF660055CC9B /* CardVisionView.swift */,
+				2B8F56142577DF390055CC9B /* CardView.swift */,
+				2BB542F12577969B00463645 /* LibraryView.swift */,
+				2B8F56102577AAEF0055CC9B /* CustomButtonView.swift */,
+				2BB542F4257796C200463645 /* SearchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BB542EB2577947000463645 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2BB542EC257794C300463645 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +180,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8F56152577DF390055CC9B /* CardView.swift in Sources */,
+				2BB542F5257796C200463645 /* SearchView.swift in Sources */,
+				2BB542F22577969B00463645 /* LibraryView.swift in Sources */,
+				2B8F56112577AAEF0055CC9B /* CustomButtonView.swift in Sources */,
+				2B8F56182577DF660055CC9B /* CardVisionView.swift in Sources */,
+				2BB542EF2577953E00463645 /* HomeView.swift in Sources */,
 				2BB542DD2577904400463645 /* ContentView.swift in Sources */,
 				2BB542DB2577904400463645 /* Apple_Lab_TvApp.swift in Sources */,
 			);
