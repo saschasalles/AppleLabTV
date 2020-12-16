@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B122C08258A05B90061C382 /* OriginalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B122C07258A05B90061C382 /* OriginalsView.swift */; };
+		2B122C0B258A14CB0061C382 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B122C0A258A14CB0061C382 /* Card.swift */; };
 		2B8F56112577AAEF0055CC9B /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F56102577AAEF0055CC9B /* CustomButtonView.swift */; };
 		2B8F56152577DF390055CC9B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F56142577DF390055CC9B /* CardView.swift */; };
 		2B8F56182577DF660055CC9B /* CardVisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F56172577DF660055CC9B /* CardVisionView.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B122C07258A05B90061C382 /* OriginalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalsView.swift; sourceTree = "<group>"; };
+		2B122C0A258A14CB0061C382 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		2B8F56102577AAEF0055CC9B /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		2B8F56142577DF390055CC9B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		2B8F56172577DF660055CC9B /* CardVisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardVisionView.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 				2BB542DA2577904400463645 /* Apple_Lab_TvApp.swift */,
 				2BB542DC2577904400463645 /* ContentView.swift */,
 				2BB542EE2577953E00463645 /* HomeView.swift */,
+				2B122C07258A05B90061C382 /* OriginalsView.swift */,
 				2B8F56172577DF660055CC9B /* CardVisionView.swift */,
 				2B8F56142577DF390055CC9B /* CardView.swift */,
 				2BB542F12577969B00463645 /* LibraryView.swift */,
@@ -100,6 +105,7 @@
 		2BB542EB2577947000463645 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2B122C0A258A14CB0061C382 /* Card.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,6 +193,8 @@
 				2B8F56182577DF660055CC9B /* CardVisionView.swift in Sources */,
 				2BB542EF2577953E00463645 /* HomeView.swift in Sources */,
 				2BB542DD2577904400463645 /* ContentView.swift in Sources */,
+				2B122C0B258A14CB0061C382 /* Card.swift in Sources */,
+				2B122C08258A05B90061C382 /* OriginalsView.swift in Sources */,
 				2BB542DB2577904400463645 /* Apple_Lab_TvApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

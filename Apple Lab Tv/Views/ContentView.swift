@@ -12,8 +12,13 @@ struct ContentView: View {
         TabView {
             HomeView()
                 .tabItem {
-                    Image(systemName: "play.rectangle.fill")
+                    Image(systemName: "play.circle.fill")
                     Text("Regarder")
+                }
+            OriginalsView()
+                .tabItem {
+                    Image(systemName: "appletv.fill")
+                    Text("Originals")
                 }
             LibraryView()
                 .tabItem {
@@ -26,7 +31,7 @@ struct ContentView: View {
                     Text("Rechercher")
                 }
         }
-        .accentColor(Color(.systemTeal))
+        .accentColor(Color(.systemBlue))
         .font(.headline)
     }
 }

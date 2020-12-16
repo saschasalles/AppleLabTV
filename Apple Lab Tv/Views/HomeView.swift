@@ -42,7 +42,38 @@ struct HomeView: View {
                                         Gradient(colors:[Color.white, Color(.systemGray5)]),
                                        startPoint: .top,
                                        endPoint: .bottom))
+                    
+                    
+                    VStack(alignment: .leading) {
+                        
+                        HStack {
+                            Text("À ne pas manquer")
+                                .font(.title2)
+                                .bold()
+                            Spacer()
+                            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                                Text("Tout")
+                            })
+                            
+                        }.padding(.horizontal)
+                        
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 15) {
+                                CardView(cardType: .small, bgImage: "mentalist", promoText: "A découvrir")
+                                CardView(cardType: .small, bgImage: "poc", promoText: "A découvrir")
+                                CardView(cardType: .small, bgImage: "simpson", promoText: "A découvrir")
+                            }.padding(.horizontal)
+                        }
+                    }
+                    .padding(.vertical, 18)
+                    .background(
+                        LinearGradient(gradient:
+                                        Gradient(colors:[Color.white, Color(.systemGray5)]),
+                                       startPoint: .top,
+                                       endPoint: .bottom))
                 }
+                
+                
             }
             .navigationBarTitle(Text("Regarder"))
             .navigationBarItems(trailing:
