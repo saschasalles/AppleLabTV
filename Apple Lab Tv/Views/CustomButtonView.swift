@@ -19,7 +19,7 @@ struct CustomButtonView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(height: 18)
-                .foregroundColor(Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)))
+                .foregroundColor(Color("InvertedCustomWhite"))
             Text(self.text.uppercased())
                 .font(.system(size: 12))
                 .fontWeight(.semibold)

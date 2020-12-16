@@ -39,7 +39,7 @@ struct HomeView: View {
                     .padding(.vertical, 18)
                     .background(
                         LinearGradient(gradient:
-                                        Gradient(colors:[Color.white, Color(.systemGray5)]),
+                                        Gradient(colors:[Color("CustomWhite"), Color("CustomLightGray")]),
                                        startPoint: .top,
                                        endPoint: .bottom))
                     
@@ -68,7 +68,7 @@ struct HomeView: View {
                     .padding(.vertical, 18)
                     .background(
                         LinearGradient(gradient:
-                                        Gradient(colors:[Color.white, Color(.systemGray5)]),
+                                        Gradient(colors:[Color("CustomWhite"), Color("CustomLightGray")]),
                                        startPoint: .top,
                                        endPoint: .bottom))
                 }
@@ -91,6 +91,5 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
-        //            .environment(\.colorScheme, .dark)
     }
 }
